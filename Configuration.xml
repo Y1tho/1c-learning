@@ -256,14 +256,18 @@
 			<Subsystem>РасчетЗарплаты</Subsystem>
 			<Subsystem>Предприятие</Subsystem>
 			<CommonModule>РаботаСДокументами</CommonModule>
+			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>ОказаниеУслуги</Document>
+			<Enum>ВидыНоменклатуры</Enum>
 			<Report>Материалы</Report>
+			<InformationRegister>Цены</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
+			<AccumulationRegister>СтоимостьМатериалов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

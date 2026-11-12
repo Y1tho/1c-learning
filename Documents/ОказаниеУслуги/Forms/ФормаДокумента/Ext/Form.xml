@@ -87,6 +87,15 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПереченьНоменклатурыНоменклатураКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ПереченьНоменклатурыНоменклатураРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ПереченьНоменклатурыНоменклатураПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПереченьНоменклатурыСтоимость" id="44">
+					<DataPath>Объект.ПереченьНоменклатуры.Стоимость</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПереченьНоменклатурыСтоимостьКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПереченьНоменклатурыСтоимостьРасширеннаяПодсказка" id="46"/>
 				</InputField>
 				<InputField name="ПереченьНоменклатурыКоличество" id="35">
 					<DataPath>Объект.ПереченьНоменклатуры.Количество</DataPath>
@@ -134,6 +143,11 @@
 		<NavigationPanel>
 			<Item>
 				<Command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
