@@ -393,23 +393,18 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="8fb8ea70-b31b-4d80-9074-f1552ec44f31">
+					<Attribute uuid="6f2af05f-db4f-4431-af8a-a775fab56dc1">
 						<Properties>
-							<Name>Стоимость</Name>
+							<Name>НаборСвойств</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Стоимость</v8:content>
+									<v8:content>Набор свойств</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:Type>cfg:CatalogRef.ВариантыНоменклатуры</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
