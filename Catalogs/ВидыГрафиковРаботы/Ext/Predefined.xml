@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="794d1555-2b2c-43f0-8810-cfc54701c466">
+		<Name>ГрафикАдминистрации</Name>
+		<Code>000000001</Code>
+		<Description>График администрации</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74b81661-399c-4e06-bae1-aead890cb6b8">
+		<Name>ГрафикМастеров</Name>
+		<Code>000000002</Code>
+		<Description>График мастеров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
